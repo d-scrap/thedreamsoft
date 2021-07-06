@@ -1,0 +1,97 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.dscrap__container {
+  display: block;
+  background: #fff;
+  width: 100vw;
+}
+
+.dscrap__container .bg {
+  display: block;
+  background: #fff;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dscrap__container .sec-1 {
+  background-image: url('../images/PC/1.jpg');
+  height: 286.40625vw;
+}
+.dscrap__container .sec-2 {
+  background-image: url('../images/PC/2.gif');
+  height: 91.625vw;
+}
+.dscrap__container .sec-3 {
+  background-image: url('../images/PC/3.jpg');
+  height: 39.6875vw;
+}
+.dscrap__container .sec-4 {
+  background: #fff;
+  height: 60vw;
+}
+.dscrap__container .video__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+}
+
+.dscrap__container .video__container .video {
+  width: 80vw;
+  height: 45vw;
+}
+.dscrap__container .sec-5 {
+  background-image: url('../images/PC/4-1.jpg');
+  height: 576.3541vw;
+  position: relative;
+}
+.dscrap__container .sec-5 .ask {
+  opacity: 0;
+  position: absolute;
+  bottom: 5.5vw;
+  left: 39.5vw;
+  display: block;
+  width: 21vw;
+  height: 6.5vw;
+  /* width: 100vw;
+  height: 38.6vw; */
+}
+
+@media (max-width: 480px) {
+  .dscrap__container .sec-1 {
+    background-image: url('../images/Mobile/1.jpg');
+    height: 383.5416vw;
+  }
+  .dscrap__container .sec-2 {
+    background-image: url('../images/Mobile//2.gif');
+    height: 114.375vw;
+  }
+  .dscrap__container .sec-3 {
+    background-image: url('../images/Mobile//3.jpg');
+    height: 58.9583vw;
+  }
+  .dscrap__container .sec-4 {
+    background: #fff;
+    height: 60vw;
+  }
+  .dscrap__container .sec-5 {
+    background-image: url('../images/Mobile//4-1.jpg');
+    height: 703.75vw;
+    position: relative;
+  }
+  .dscrap__container .sec-5 .ask {
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 55.6vw;
+  }
+}
