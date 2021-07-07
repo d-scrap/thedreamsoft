@@ -59,11 +59,16 @@ body {
   position: absolute;
   bottom: 5.5vw;
   left: 39.5vw;
-  display: block;
   width: 21vw;
   height: 6.5vw;
   /* width: 100vw;
   height: 38.6vw; */
+}
+.dscrap__container .sec-5 a.ask {
+  display: none;
+}
+.dscrap__container .sec-5 button.ask {
+  display: block;
 }
 
 @media (max-width: 480px) {
@@ -93,5 +98,11 @@ body {
     left: 0;
     width: 100vw;
     height: 55.6vw;
+  }
+  .dscrap__container .sec-5 a.ask {
+    display: block;
+  }
+  .dscrap__container .sec-5 button.ask {
+    display: none;
   }
 }
