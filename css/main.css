@@ -77,11 +77,11 @@ body {
     height: 383.5416vw;
   }
   .dscrap__container .sec-2 {
-    background-image: url('../images/Mobile//2.gif');
+    background-image: url('../images/Mobile/2.gif');
     height: 114.375vw;
   }
   .dscrap__container .sec-3 {
-    background-image: url('../images/Mobile//3.jpg');
+    background-image: url('../images/Mobile/3.jpg');
     height: 58.9583vw;
   }
   .dscrap__container .sec-4 {
@@ -89,7 +89,7 @@ body {
     height: 60vw;
   }
   .dscrap__container .sec-5 {
-    background-image: url('../images/Mobile//4-1.jpg');
+    background-image: url('../images/Mobile/4-1.jpg');
     height: 703.75vw;
     position: relative;
   }
